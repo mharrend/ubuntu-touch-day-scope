@@ -179,10 +179,12 @@ void Query::getFromNetwork(QFile &data, QFile &lastRefresh, data_t t)
 
     if (search_metadata().has_location() && search_metadata().internet_connectivity() == us::QueryMetadata::Connected)
     {
+        /* Old Moon phase API
         if (!haveSignature)
         {
             makeSignature();
         }
+        */
         if (t == data_t::suns)
         {
             suns = getSuns(data, lastRefresh);
@@ -279,8 +281,6 @@ void Query::run(us::SearchReplyProxy const& reply)
     mUserAgent = QString("%1 (Ubuntu)").arg(SCOPE_PACKAGE);
     QString::fromStdString(setlocale(LC_ALL, ""));
     service = "astronomy";
-    accessKey = ACCESSKEY;
-    secretKey = SECRETKEY;
     try
     {
         us::Location loc = search_metadata().location();
@@ -484,6 +484,8 @@ QMap<QString,QString> Query::getSuns(QFile &cache_f, QFile &lastRefresh) {
     return suns;
 }
 void Query::makeSignature() {
+    return;    
+    /* Old Moon phase API
     haveSignature = true;
     QDateTime dtCurrent = QDateTime::currentDateTime();
     QDateTime dtUTC = dtCurrent.toUTC(); //UTC iso format ends in 'Z'. Use utc to avoid tiemzone confusion
@@ -504,6 +506,7 @@ void Query::makeSignature() {
     signatureEncoded = QUrl::toPercentEncoding(signature);
     qDebug() << "=== DAY signatureEncoded: " << signatureEncoded;
     return;
+    */
 }
 
 QString Query::formatToday()

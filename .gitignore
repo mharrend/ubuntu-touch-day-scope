@@ -34,3 +34,7 @@
 
 # Clickable build dir
 build
+
+#Files created by cmake
+include/config.h
+include/i18n.h

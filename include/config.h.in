@@ -7,7 +7,4 @@
 
 const QString SCOPE_PACKAGE = "@SCOPE_PACKAGE@";
 
-QByteArray ACCESSKEY = "@APIKEY@";
-QByteArray SECRETKEY = "@SECRETKEY@";
-
 #endif
