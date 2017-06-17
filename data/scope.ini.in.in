@@ -1,0 +1,11 @@
+[ScopeConfig]
+_DisplayName=${DISPLAY_NAME}
+_Description=${DISPLAY_DESC}
+Author=${AUTHOR}
+Art=${CARD_ICON}
+Icon=${CARD_ICON}
+_SearchHint=${SEARCH_HINT}
+LocationDataNeeded=true
+Invisible=true
+
+[Appearance]

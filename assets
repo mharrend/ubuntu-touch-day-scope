@@ -1,0 +1,4 @@
+#NOTE: 'assets' file is a cmake file that must set the following two vars:
+set(APIKEY "1000")
+set(SECRETKEY "2000")
+

@@ -1,0 +1,11 @@
+[ScopeConfig]
+_DisplayName=Day Info
+_Description=Info about this day
+Author=mharrend@github
+Art=images/calendar-app_day-17.png
+Icon=images/calendar-app_day-17.png
+_SearchHint=
+LocationDataNeeded=true
+Invisible=true
+
+[Appearance]

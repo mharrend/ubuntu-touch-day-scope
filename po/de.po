@@ -1,0 +1,81 @@
+# German translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: day-scope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-30 09:37-0400\n"
+"PO-Revision-Date: 2015-12-20 11:01+0000\n"
+"Last-Translator: schuko24 <gerdsaenger@t-online.de>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:38+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
+"Language: de\n"
+
+#: ._9
+msgid "waningcrescent"
+msgstr "Letztes Viertel"
+
+#: ._8
+msgid "thirdquarter"
+msgstr "drittes Viertel"
+
+#: ._7
+msgid "waninggibbous"
+msgstr "abnehmender Dreiviertelmond"
+
+#: ._6
+msgid "fullmoon"
+msgstr "Vollmond"
+
+#: ._5
+msgid "waxinggibbous"
+msgstr "zunehmender Dreiviertelmond"
+
+#: ._4
+msgid "firstquarter"
+msgstr "erstes Viertel"
+
+#: ._3
+msgid "waxingcrescent"
+msgstr "zunehmender Mond"
+
+#: ._1
+msgid "newmoon"
+msgstr "Neumond"
+
+#: ../data/scope.ini.in.h:1
+msgid "Day Info"
+msgstr "Tagesinfo"
+
+#: ../data/scope.ini.in.h:2
+msgid "Info about this day"
+msgstr "Infos über diesen Tag"
+
+#: ../src/query.cpp:142
+msgid "Week"
+msgstr "Woche"
+
+#: ../src/query.cpp:157
+msgid "Sunrise"
+msgstr "Sonnenaufgang"
+
+#: ../src/query.cpp:158
+msgid "Sunset"
+msgstr "Sonnenuntergang"
+
+#: ../src/query.cpp:159 ../src/query.cpp:160 ../src/query.cpp:175
+#: ../src/query.cpp:176 ../src/query.cpp:290
+msgid "No Information"
+msgstr "Keine Informationen"
+
+#. TRANSLATORS: if there is one word for "phase of moon" please use it here
+#: ../src/query.cpp:193
+msgid "Moon"
+msgstr "Mondphase"

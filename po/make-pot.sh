@@ -1,0 +1,79 @@
+#!/bin/bash
+
+PWD=$(pwd)
+POT=day
+POT="$POT.pot"
+echo "POT will be: $POT"
+
+JSONS="./JSONS"
+
+# Ensure required packages are install
+
+dpkg -l intltool | grep intltool | grep -q ^ii
+
+if [ $? -ne 0 ]; then
+    echo "Error: You mustinstall intltool pkg in the system in which $0 executes"
+    exit 1
+fi
+
+dpkg -l translate-toolkit | grep translate-toolkit | grep -q ^ii
+if [ $? -ne 0 ]; then
+    echo "Error: You must install translate-toolkit pkg in the system in which $0 executes"
+    exit 1
+fi
+
+# create starting pot file
+intltool-update -p -g "$POT.in"
+
+# Process json files and add the bits whose key's start with-
+# underscore "_KEY":"VALUE" to the final pot
+while read json; do
+
+    # Allow comments with lines that start with "#"
+    [[ "$json" == \#* ]] && continue
+
+    echo "Processing: $json"
+
+    name=$(basename $json)
+    #echo "name: $name"
+    in_in_in_in="$json"
+    #echo "in_in_in_in: $in_in_in_in"
+    in_in_in="/tmp/$name.pot.in.in.in"
+    rm -f $in_in_in
+    #echo "in_in_in: $in_in_in"
+    in_in="/tmp/$name.pot.in.in"
+    rm -f $in_in
+    #echo "in_in: $in_in"
+    in="/tmp/$name.pot.in"
+    rm -f $in 
+    #echo "in: $in"
+    out="/tmp/$name.pot"
+    rm -f $out
+    #echo "out: $out
+
+    # Convert current json file into a po file.
+    # It will include ALL objects as messages, but duplicates are merged
+    json2po -P --duplicates=merge "$in_in_in_in" -o "$in_in_in"
+
+    # Json keys are carried through as "automatic" comments. We need to convert
+    # them to normal comments for translators so that we can use msggrep later
+    # to extract the desired bits into an intermediate file
+    sed 's_#:_#_g' $in_in_in > $in_in
+
+    # Extract the messages whose comments include "_" so they can be added
+    # to the pot
+    msggrep -C -e "_" $in_in > $in
+
+    # Restore comments ot proper "automatic" syntax
+    sed 's_^# _#:_g' $in > $out
+
+    # Merge this json files messages into intermediate POT
+    msgcat -o $out.merged $out $POT.in.pot
+    cp $out.merged $POT.in.pot
+
+done < $JSONS
+
+# Move accumulated intermediate POT to final POT
+mv $POT.in.pot $POT
+
+exit 0

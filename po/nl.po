@@ -1,0 +1,81 @@
+# Dutch translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: day-scope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-30 09:37-0400\n"
+"PO-Revision-Date: 2015-05-01 09:15+0000\n"
+"Last-Translator: Hannie Dumoleyn <Unknown>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:38+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
+"Language: nl\n"
+
+#: ._9
+msgid "waningcrescent"
+msgstr "afnemende halve maan"
+
+#: ._8
+msgid "thirdquarter"
+msgstr "laatste kwartier"
+
+#: ._7
+msgid "waninggibbous"
+msgstr "afnemende maan"
+
+#: ._6
+msgid "fullmoon"
+msgstr "volle maan"
+
+#: ._5
+msgid "waxinggibbous"
+msgstr "wassende maan"
+
+#: ._4
+msgid "firstquarter"
+msgstr "eerste kwartier"
+
+#: ._3
+msgid "waxingcrescent"
+msgstr "wassende halve maan"
+
+#: ._1
+msgid "newmoon"
+msgstr "nieuwe maan"
+
+#: ../data/scope.ini.in.h:1
+msgid "Day Info"
+msgstr "Dag-info"
+
+#: ../data/scope.ini.in.h:2
+msgid "Info about this day"
+msgstr "Informatie over deze dag"
+
+#: ../src/query.cpp:142
+msgid "Week"
+msgstr "Week"
+
+#: ../src/query.cpp:157
+msgid "Sunrise"
+msgstr "Zonsopgang"
+
+#: ../src/query.cpp:158
+msgid "Sunset"
+msgstr "Zonsondergang"
+
+#: ../src/query.cpp:159 ../src/query.cpp:160 ../src/query.cpp:175
+#: ../src/query.cpp:176 ../src/query.cpp:290
+msgid "No Information"
+msgstr "Geen informatie"
+
+#. TRANSLATORS: if there is one word for "phase of moon" please use it here
+#: ../src/query.cpp:193
+msgid "Moon"
+msgstr "Maan"

@@ -1,0 +1,15 @@
+{
+    "name": "${PKG_PREFIX}.${PKG}",
+    "description": "${DISPLAY_DESC}",
+    "framework": "ubuntu-sdk-15.04.4",
+    "architecture": "${ARCH}",
+    "title": "${DISPLAY_NAME}",
+    "hooks": {
+        "${SCOPE_NAME}": {
+            "scope": "${SCOPE_NAME}",
+            "apparmor": "${PKG_PREFIX}.${PKG}_${APP}.security.json"
+        }
+    },
+    "version": "${VERSION}",
+    "maintainer": "${MAINTAINER}"
+}

@@ -1,0 +1,80 @@
+# Chinese (Traditional) translation for day-scope
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the day-scope package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: day-scope\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-04-30 09:37-0400\n"
+"PO-Revision-Date: 2016-07-04 13:13+0000\n"
+"Last-Translator: Po-Hsu Lin <po-hsu.lin@canonical.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:38+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
+
+#: ._9
+msgid "waningcrescent"
+msgstr "殘月"
+
+#: ._8
+msgid "thirdquarter"
+msgstr "下弦月"
+
+#: ._7
+msgid "waninggibbous"
+msgstr "虧凸月"
+
+#: ._6
+msgid "fullmoon"
+msgstr "滿月"
+
+#: ._5
+msgid "waxinggibbous"
+msgstr "盈凸月"
+
+#: ._4
+msgid "firstquarter"
+msgstr "上弦月"
+
+#: ._3
+msgid "waxingcrescent"
+msgstr "眉月"
+
+#: ._1
+msgid "newmoon"
+msgstr "新月"
+
+#: ../data/scope.ini.in.h:1
+msgid "Day Info"
+msgstr "每日資訊"
+
+#: ../data/scope.ini.in.h:2
+msgid "Info about this day"
+msgstr "關於這一天的資訊"
+
+#: ../src/query.cpp:142
+msgid "Week"
+msgstr "週數"
+
+#: ../src/query.cpp:157
+msgid "Sunrise"
+msgstr "日出"
+
+#: ../src/query.cpp:158
+msgid "Sunset"
+msgstr "日落"
+
+#: ../src/query.cpp:159 ../src/query.cpp:160 ../src/query.cpp:175
+#: ../src/query.cpp:176 ../src/query.cpp:290
+msgid "No Information"
+msgstr "沒有資訊"
+
+#. TRANSLATORS: if there is one word for "phase of moon" please use it here
+#: ../src/query.cpp:193
+msgid "Moon"
+msgstr "月相"

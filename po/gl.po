@@ -1,0 +1,81 @@
+# Galician translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: day-scope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-30 09:37-0400\n"
+"PO-Revision-Date: 2015-05-03 01:33+0000\n"
+"Last-Translator: Marcos Lans <Unknown>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:38+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
+"Language: gl\n"
+
+#: ._9
+msgid "waningcrescent"
+msgstr "lúa en devalo cóncava"
+
+#: ._8
+msgid "thirdquarter"
+msgstr "cuarto en devalo"
+
+#: ._7
+msgid "waninggibbous"
+msgstr "lúa en devalo convexa"
+
+#: ._6
+msgid "fullmoon"
+msgstr "lúa chea"
+
+#: ._5
+msgid "waxinggibbous"
+msgstr "lúa en abalo convexa"
+
+#: ._4
+msgid "firstquarter"
+msgstr "cuarto en abalo"
+
+#: ._3
+msgid "waxingcrescent"
+msgstr "lúa en abalo cóncava"
+
+#: ._1
+msgid "newmoon"
+msgstr "lúa nova"
+
+#: ../data/scope.ini.in.h:1
+msgid "Day Info"
+msgstr "Información do día"
+
+#: ../data/scope.ini.in.h:2
+msgid "Info about this day"
+msgstr "Información sobre este día"
+
+#: ../src/query.cpp:142
+msgid "Week"
+msgstr "Semana"
+
+#: ../src/query.cpp:157
+msgid "Sunrise"
+msgstr "Amencer"
+
+#: ../src/query.cpp:158
+msgid "Sunset"
+msgstr "Anoitecer"
+
+#: ../src/query.cpp:159 ../src/query.cpp:160 ../src/query.cpp:175
+#: ../src/query.cpp:176 ../src/query.cpp:290
+msgid "No Information"
+msgstr "Sen información"
+
+#. TRANSLATORS: if there is one word for "phase of moon" please use it here
+#: ../src/query.cpp:193
+msgid "Moon"
+msgstr "Lúa"

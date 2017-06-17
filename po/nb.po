@@ -1,0 +1,80 @@
+# Norwegian Bokmal translation for day-scope
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the day-scope package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: day-scope\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-04-30 09:37-0400\n"
+"PO-Revision-Date: 2015-05-01 12:44+0000\n"
+"Last-Translator: Åka Sikrom <Unknown>\n"
+"Language-Team: Norwegian Bokmal <nb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:38+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
+
+#: ._9
+msgid "waningcrescent"
+msgstr "avtagende halvmåne"
+
+#: ._8
+msgid "thirdquarter"
+msgstr "trekvart"
+
+#: ._7
+msgid "waninggibbous"
+msgstr "avtagende måne"
+
+#: ._6
+msgid "fullmoon"
+msgstr "fullmåne"
+
+#: ._5
+msgid "waxinggibbous"
+msgstr "voksende måne"
+
+#: ._4
+msgid "firstquarter"
+msgstr "énkvart"
+
+#: ._3
+msgid "waxingcrescent"
+msgstr "voksende halvmåne"
+
+#: ._1
+msgid "newmoon"
+msgstr "nymåne"
+
+#: ../data/scope.ini.in.h:1
+msgid "Day Info"
+msgstr "Dagsinfo"
+
+#: ../data/scope.ini.in.h:2
+msgid "Info about this day"
+msgstr "Info om denne dagen"
+
+#: ../src/query.cpp:142
+msgid "Week"
+msgstr "Uke"
+
+#: ../src/query.cpp:157
+msgid "Sunrise"
+msgstr "Soloppgang"
+
+#: ../src/query.cpp:158
+msgid "Sunset"
+msgstr "Solnedgang"
+
+#: ../src/query.cpp:159 ../src/query.cpp:160 ../src/query.cpp:175
+#: ../src/query.cpp:176 ../src/query.cpp:290
+msgid "No Information"
+msgstr "Ingen Informasjon"
+
+#. TRANSLATORS: if there is one word for "phase of moon" please use it here
+#: ../src/query.cpp:193
+msgid "Moon"
+msgstr "Månefase"

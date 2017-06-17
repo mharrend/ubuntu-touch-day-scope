@@ -1,0 +1,4 @@
+[type: gettext/ini] data/scope.ini.in
+src/preview.cpp
+src/query.cpp
+src/scope.cpp

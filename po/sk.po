@@ -1,0 +1,81 @@
+# Slovak translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: day-scope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-30 09:37-0400\n"
+"PO-Revision-Date: 2016-04-01 21:37+0000\n"
+"Last-Translator: P_E_T_O <Unknown>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-07-18 05:38+0000\n"
+"X-Generator: Launchpad (build 18140)\n"
+"Language: sk\n"
+
+#: ._9
+msgid "waningcrescent"
+msgstr "posledný kosák"
+
+#: ._8
+msgid "thirdquarter"
+msgstr "posledná štvrť"
+
+#: ._7
+msgid "waninggibbous"
+msgstr "cúvajúci mesiac"
+
+#: ._6
+msgid "fullmoon"
+msgstr "spln"
+
+#: ._5
+msgid "waxinggibbous"
+msgstr "dorastajúci mesiac"
+
+#: ._4
+msgid "firstquarter"
+msgstr "prvá štvrť"
+
+#: ._3
+msgid "waxingcrescent"
+msgstr "prvý kosák"
+
+#: ._1
+msgid "newmoon"
+msgstr "nov"
+
+#: ../data/scope.ini.in.h:1
+msgid "Day Info"
+msgstr "Denné informácie"
+
+#: ../data/scope.ini.in.h:2
+msgid "Info about this day"
+msgstr "Informácie o tomto dni"
+
+#: ../src/query.cpp:142
+msgid "Week"
+msgstr "Týždeň"
+
+#: ../src/query.cpp:157
+msgid "Sunrise"
+msgstr "Východ slnka"
+
+#: ../src/query.cpp:158
+msgid "Sunset"
+msgstr "Západ slnka"
+
+#: ../src/query.cpp:159 ../src/query.cpp:160 ../src/query.cpp:175
+#: ../src/query.cpp:176 ../src/query.cpp:290
+msgid "No Information"
+msgstr "Žiadne informácie"
+
+#. TRANSLATORS: if there is one word for "phase of moon" please use it here
+#: ../src/query.cpp:193
+msgid "Moon"
+msgstr "Mesiac"
