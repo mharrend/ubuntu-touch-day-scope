@@ -28,18 +28,18 @@ Changes:
 apt-get install qtbase5-dev:armhf libgles2-mesa-dev:armhf libegl1-mesa-dev:armhf libwayland-dev:armhf libmirclient-dev:armhf libmircommon-dev:armhf libxkbcommon-dev:armhf
 ```
 1. Logout from the LXC image
-1. Add clickable to your PATH environment variable via `export PATH=$PATH:/PATH/TO/clickable`
-1. Check out this github repository 
-1. cd into the created folder
-1. Build the day scope for Ubuntu Touch via
+2. Add clickable to your PATH environment variable via `export PATH=$PATH:/PATH/TO/clickable`
+3. Check out this github repository 
+4. cd into the created folder
+5. Build the day scope for Ubuntu Touch via
 ```
 clickable build  click-build   -t cmake
 ```
-1. If you want, you can build and install the click package directly to your phone at the same (Note: You must have SSH with public/private key enabled and your phone must be accessible via Wifi)
+6. If you want, you can build and install the click package directly to your phone at the same (Note: You must have SSH with public/private key enabled and your phone must be accessible via Wifi)
 ```
 clickable build  click-build install   -t cmake -i IP-AdressOfYourPhone
 ```
-1. Enjoy!!!
+7. Enjoy!!!
 
 
 ## Fast install of click package
