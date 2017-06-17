@@ -43,6 +43,7 @@ clickable build  click-build install   -t cmake -i IP-AdressOfYourPhone
 
 
 ## Fast install of click package
-* You can find a click package ready for installation on UBPorts 15.04 under releases.
+* You can find a click package ready for installation on UBPorts 15.04 under [releases.](https://github.com/mharrend/ubuntu-touch-day-scope/releases/)
+
 * Legal note: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
